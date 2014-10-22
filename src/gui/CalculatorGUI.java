@@ -42,7 +42,7 @@ public class CalculatorGUI extends JFrame implements UserInterface {
     private JButton jbtSolve;
     private JButton jbtClear;
     private JButton jbtComma;
-    private JTextField jtfResult;
+    public JTextField jtfResult;
     
 	public CalculatorGUI() {
 		
@@ -74,7 +74,7 @@ public class CalculatorGUI extends JFrame implements UserInterface {
 
         p3.setLayout(new GridLayout(5, 1));
         p3.add(jbtAdd = new JButton("+"));
-        jbtAdd.setPreferredSize(new Dimension(60, 60));
+        jbtAdd.setPreferredSize(new Dimension(48,48));
         p3.add(jbtSubtract = new JButton("-"));
         p3.add(jbtMultiply = new JButton("*"));
         p3.add(jbtDivide = new JButton("/"));
@@ -88,5 +88,7 @@ public class CalculatorGUI extends JFrame implements UserInterface {
         p.add(p3, BorderLayout.EAST);
 	    
         add(p);
+        
 	}
 }
+
