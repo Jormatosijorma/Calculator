@@ -11,5 +11,9 @@ import gui.CalculatorGUI;
 public class Core {
 	public static void main(String[] args) {
 		CalculatorGUI gui = new CalculatorGUI();
+		
+		gui.pack();
+        gui.setSize(300, 400);
+        gui.setVisible(true);
 	}
 }
