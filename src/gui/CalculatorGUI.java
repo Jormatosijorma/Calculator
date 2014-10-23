@@ -34,7 +34,6 @@ public class CalculatorGUI extends JFrame implements UserInterface {
     private JButton jbtNum8;
     private JButton jbtNum9;
     private JButton jbtNum0;
-    private JButton jbtEqual;
     private JButton jbtAdd;
     private JButton jbtSubtract;
     private JButton jbtMultiply;
